@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
 	<section id="buttons">
 		<button class="btn" data-sound="applause">Applause</button>
 		<button class="btn" data-sound="boo">Boo</button>
 		<button class="btn" data-sound="gasp">Gasp</button>
 		<button class="btn" data-sound="tada">Tada</button>
 		<button class="btn" data-sound="victory">Victory</button>
+		<button class="btn" data-sound="wrong">Wrong</button>
+
 		<button class="stop">Stop</button>
 	</section>
+
+	<!-- Audio elements MUST exist in DOM -->
 	<audio id="applause" src="./sounds/applause.mp3"></audio>
 	<audio id="boo" src="./sounds/boo.mp3"></audio>
 	<audio id="gasp" src="./sounds/gasp.mp3"></audio>
 	<audio id="tada" src="./sounds/tada.mp3"></audio>
 	<audio id="victory" src="./sounds/victory.mp3"></audio>
-    <script type="text/javascript" src="./script.js">
-</script>
+	<audio id="wrong" src="./sounds/wrong.mp3"></audio>
 
+	<script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>

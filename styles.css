@@ -13,14 +13,17 @@ body {
     flex-wrap: wrap;
 }
 
-.btn {
+.btn, .stop {
     padding: 12px 18px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    background-color: #3498db;
-    color: white;
     border-radius: 5px;
+    color: white;
+}
+
+.btn {
+    background-color: #3498db;
 }
 
 .stop {
